@@ -1,0 +1,38 @@
+{
+    "port": 3100,
+    "device-id": "",
+    "awsConnect": false,
+    "azureConnect": true,
+    "deviceString": "HostName=edifice-iot-hub.azure-devices.net;DeviceId=edifice-edge-01;SharedAccessKey=8vX6T4Gq4CsnLByy21CMGv5WcjIWi8Gt/pvyYNa6No0=",
+    "serviceString": "HostName=edifice-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Vfv761eyhG1O7df4fs0rvh0ZeJdZbvJ0uIZP+7tao60=",
+    "cloudBroker": {
+        "region": "us-east-1",
+        "endpoint": "a2ia7rpbohb7y1-ats.iot.us-east-1.amazonaws.com",
+        "IdentityPoolId": "us-east-1:84dec9af-ea48-44fd-ba93-90d02c5126c0"
+    },
+    "OnPrem": {
+        "gateway": "192.168.80.253",
+        "port": "8087",
+        "user": "admin",
+        "password": "admin"
+    },
+    "onCloud": false,
+    "encode": "utf8",
+    "topic": "testmytopic",
+    "responseTopic": "requestResponseStatus",
+    "clientID": "mqtt-client-2020123",
+    "logger": {
+        "defaults": {
+            "logdir": "log",
+            "maxsize": "5m",
+            "maxFiles": 50,
+            "timestamp": true,
+            "releaseModeEnable": true,
+            "logLevel": "error"
+        }
+    },
+    "loginCredentials": {
+        "username": "admin",
+        "password": "admin"
+    }
+}
