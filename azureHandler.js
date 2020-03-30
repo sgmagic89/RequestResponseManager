@@ -22,10 +22,7 @@ class MqttHandler {
 
   // Sends a mqtt message to topic: topic
   sendMessage(message) {
-
-    this.mqttClient.send("coresync-iot-gateway", new Message(JSON.stringify(message)), function (err, res) {
-
-
+    this.mqttClient.send(config["device-id"], new Message(JSON.stringify(message)), function (err, res) {
       if (err) logger.error(' error: ' + err.toString());
     });
   }

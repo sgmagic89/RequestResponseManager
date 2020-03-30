@@ -1,6 +1,6 @@
 {
     "port": 3100,
-    "device-id": "",
+    "device-id": "edifice-edge-01",
     "awsConnect": false,
     "azureConnect": true,
     "deviceString": "HostName=edifice-iot-hub.azure-devices.net;DeviceId=edifice-edge-01;SharedAccessKey=8vX6T4Gq4CsnLByy21CMGv5WcjIWi8Gt/pvyYNa6No0=",
@@ -16,7 +16,7 @@
         "user": "admin",
         "password": "admin"
     },
-    "onCloud": false,
+    "onCloud": true,
     "encode": "utf8",
     "topic": "testmytopic",
     "responseTopic": "requestResponseStatus",
